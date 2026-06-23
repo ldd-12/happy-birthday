@@ -259,6 +259,7 @@ body {
     display: flex;
     align-items: center;
     border: 6px solid var(--color-black);
+    z-index: 1;
 }
 .content .right .image img{
     width: 100%;
