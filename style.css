@@ -33,7 +33,7 @@ body {
     height:100%;
     background-size:80px 80px;
     overflow: hidden;
-    z-index: 1;
+    z-index: -1;
 }
 .flag__birthday{
     display: flex;
