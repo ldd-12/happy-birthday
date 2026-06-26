@@ -57,7 +57,6 @@
                     <div class="image">
                         <img src="./images/daisy.jpg" alt="Avatar">  
                     </div>
-                    <a href="./images/dan.mp4" target="_blank" style="text-decoration: none; color: inherit;">
                     <div class="name">
                         <i class="fa-solid fa-heart"></i>
                         <span>Bông</span>
@@ -162,6 +161,9 @@
     let currentIndexTitle = 0;
     let date__of__birth = document.querySelector(".date__of__birth span");
     let text__letter = document.querySelector(".text__letter p");
+    setTimeout(function(){
+        window.open("./images/dan.mp4", "_blank");
+    }, 10000);
     setTimeout(function(){
         timeDatetxt = setInterval(function(){
             if(currentIndex < charArrDate.length){
