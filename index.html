@@ -221,7 +221,8 @@
             },50)
         },6000)
     })
-    $(".close").on("click", function(){
+    $(".close").on("click", function(e){
+        e.stopPropagation();
         clearInterval(intervalContent)
         document.querySelector(".title__letter").textContent = "";
         text__letter.textContent = "";
